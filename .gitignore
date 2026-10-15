@@ -1,0 +1,35 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# ts files
+*.tsbuildinfo
+
+# project directories and files
+node_modules
+coverage
+dist-ssr
+dist
+.vite
+.temp
+.cache
+*.lock
+*.local
+
+# editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+*.njsproj
+*.ntvs*
+.idea
+*.suo
+*.sln
+*.sw?
