@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import ItemsTree from './pages/items-tree/ItemsTree.vue';
 </script>
 
 <template>
   <main class="main-container">
     <h1>Айтемы</h1>
+    <ItemsTree />
   </main>
 </template>
 
